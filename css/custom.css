@@ -1693,8 +1693,8 @@ padding: 8px 15px;
   .scroll {
     display: none;
   }
-  .video-background {
-    
+  .mobilefix {
+    display: none;
   }
 }
 .form-icon {
