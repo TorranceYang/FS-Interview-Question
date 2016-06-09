@@ -180,7 +180,8 @@ jQuery(function($) {
 
   $("#owl-demo").owlCarousel({
   
-  navigation : true, // Show next and prev buttons
+
+  navigation : $(window).width() > 800, // Show next and prev buttons
   // navigationText: ["prev","next"], 
    navigationText: [
       "<i class='fa fa-angle-left'></i>",
@@ -205,7 +206,7 @@ jQuery(function($) {
     //Testimonial
 
     $("#testimonial-carousel").owlCarousel({
- 
+      
       navigation : true, // Show next and prev buttons
       slideSpeed : 600,
       pagination:false,

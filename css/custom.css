@@ -1689,7 +1689,7 @@ padding: 8px 15px;
     line-height: 18px;
     text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .scroll {
     display: none;
   }
