@@ -1693,6 +1693,9 @@ padding: 8px 15px;
   .scroll {
     display: none;
   }
+  .video-background {
+    
+  }
 }
 .form-icon {
     position: absolute;
@@ -2446,6 +2449,8 @@ padding: 8px 15px;
 }
 .video-background{
     width: 100%;
+    z-index: -1000;
+    overflow: hidden;
 }
 .video-background-container {
     position: absolute;
@@ -2455,8 +2460,8 @@ padding: 8px 15px;
     right: 0;
     height: 100%;
     width: 100%;
-     z-index: -1000;
-     overflow: hidden;
+    z-index: -1000;
+    overflow: hidden;
 }
 section{
     position: relative;
