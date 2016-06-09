@@ -1696,6 +1696,12 @@ padding: 8px 15px;
   .mobilefix {
     display: none;
   }
+  .parallax-overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%; 
+    }
 }
 .form-icon {
     position: absolute;
