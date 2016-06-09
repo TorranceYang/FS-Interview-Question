@@ -121,12 +121,7 @@ a{
     font-size: 40px;
     line-height: 50px;
 }
-.feature_title:hover{
-    cursor: pointer;
-    animation: pulse 1s ease-in-out 100ms both;
-    -webkit-animation:pulse 1s ease-in-out 100ms both;
-    -o-animation:pulse 1s ease-in-out 100ms both;
-}
+
 .feature_sub{
     color:#000;
     font-size: 25px;
