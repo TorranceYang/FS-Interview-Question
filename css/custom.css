@@ -2350,7 +2350,7 @@ padding: 8px 15px;
 }
 .hero-section {
     height: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-top: 200px;
 }
 .hero-section .container {
@@ -2651,9 +2651,7 @@ iframe{
   .scroll {
     display: none;
   }
-  .mobilefix {
-    display: none;
-  }
+
   .hero-section {
     height: 100%;
     padding-bottom: 28px;
