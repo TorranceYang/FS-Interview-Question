@@ -684,6 +684,9 @@ ul.navbar-nav > .active > a {
     opacity: 0;
 }
 
+#description {
+    background: #FBFAF8;
+}
 .single-portfolio figcaption .description {
     text-transform: none;
     font-size: 90%;
@@ -1021,6 +1024,7 @@ figcaption .links a {
 
 .feature-content p {
     margin: 10px 0px;
+    font-size: 20px;
 }
 
 .tab-content {
@@ -1038,7 +1042,6 @@ figcaption .links a {
     background: #FAFAFA;
 }*/
 .single-member {
-    height: auto;
     font-weight: 700;
     margin-bottom: 30px;
     width: 270px;
@@ -1132,7 +1135,7 @@ figcaption .links a {
 =========================== */
 .team-items {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     float: left;
 }

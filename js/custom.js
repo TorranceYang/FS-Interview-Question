@@ -85,7 +85,7 @@ jQuery(function($) {
 
   $('#slider_part').carousel({
     pause: true,
-    interval: 100000,
+    interval: false,
   });
 
   /* ----------------------------------------------------------- */
@@ -188,7 +188,7 @@ jQuery(function($) {
       ],
   slideSpeed : 300,
   paginationSpeed : 400,
-  autoPlay: true,  
+  autoPlay: false,  
   items : 4,
   itemsDesktop:[1199,4],  
   itemsDesktopSmall:[979,3],  //As above.

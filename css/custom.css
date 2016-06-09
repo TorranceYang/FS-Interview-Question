@@ -75,7 +75,7 @@ h2{
     font-size:60px;
 }
 h3{
-    font-size:40px;
+    font-size:60px;
     font-weight:400;
 
     line-height:60px;
@@ -111,7 +111,15 @@ a{
     margin: 10px auto;
     font-size: 40px;
     line-height: 50px;
-
+}
+.feature_title_alternate{
+    position:relative;
+    padding-bottom:10px;
+    color:#009345!important;
+    width: 45%;
+    margin: 10px auto;
+    font-size: 40px;
+    line-height: 50px;
 }
 .feature_title:hover{
     cursor: pointer;
@@ -121,7 +129,7 @@ a{
 }
 .feature_sub{
     color:#000;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     font-weight: 400;
 }
@@ -169,7 +177,7 @@ a{
 .feature-tab,.team-items,.pricing,.single_blog ,#testimonial .owl-carousel .owl-wrapper,.contact_full{
     margin-top: 40px;
 }
-#portfolio{
+#portfolio{2.
     padding-bottom: 0px;
 }
 #footer{
@@ -178,7 +186,6 @@ a{
 
  /*Divider
 ================================*/
-.divider{}
 .divider{
     display: block;
     margin: 20px auto;
@@ -186,8 +193,15 @@ a{
     width: 70px;
     height: 5px;
     }
+.divider_green{
+    display: block;
+    margin: 20px auto;
+    content: "";
+    width: 70px;
+    height: 5px;
+}
 
-#description,#pricing_table,#about,#team,#blog,#contact,#testimonial,#portfolio,#video-fact,#about-details {
+#description,#pricing_table,#about,#customers,#team,#blog,#contact,#testimonial,#portfolio,#video-fact,#about-details {
      padding-bottom: 130px;
      padding-top:90px;
 }
@@ -201,7 +215,12 @@ section{
     padding-bottom: 90px!important;
 }
 #portfolio{
-    padding-bottom: 0px!important;
+    position: relative; 
+    margin: 0 auto;
+    width: 100%;
+    overflow:hidden;
+    z-index:2;
+    padding:80px 0px 120px 0px;
 }
 /* Custom Basic styles
 ================================================== */
@@ -563,7 +582,7 @@ ul.navbar-nav > .active > a{
 }
 
 .feature_content p{
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     color: #222;
 }
@@ -943,6 +962,7 @@ padding: 8px 15px;
 }
 .feature-content p{
     margin: 10px 0px;
+    font-size: 18px;
     color: #696969;
 }
 
@@ -1042,8 +1062,6 @@ padding: 8px 15px;
     font-weight: 700;
     margin-bottom: 30px;
     width: 270px;
-    border-radius: 7px;
-    padding-bottom: 25px;
     margin: 0 10px;
 }
 
@@ -1119,8 +1137,7 @@ padding: 8px 15px;
 /* Carousel  TEAM Css
 =========================== */
 .team-items{
-        width:100%;
-        height:auto;
+
         position:relative;
         float: left;
     }
@@ -1335,9 +1352,8 @@ padding: 8px 15px;
 /* Counter FActs
 ====================================== */
 
-#counter_area{
+#description_area{
     color: #FFF;
-     background: url('../images/bg/5.jpg') no-repeat fixed 50% 0px / cover transparent;
     position: relative; 
     margin: 0 auto;
     width: 100%;
@@ -2389,7 +2405,7 @@ padding: 8px 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .video-embed iframe {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -2557,10 +2573,8 @@ iframe{
 ==========================*/
 
 #about-details .feature_sub, .single-progress label, #about-details .feature_title{
-    color: #fff!important;
 }
 #about-details {
-    background: url('../images/banner/banner.jpg')fixed 50% 50%;
 }
 
 .single-progress .progress{

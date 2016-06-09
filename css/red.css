@@ -24,6 +24,9 @@
 .divider{
     background: #ef6c00;
     }
+.divider_green{
+    background: #009345;
+}
 .navbar-brand:hover{
     color:#ef6c00;
 }
@@ -166,6 +169,10 @@ figcaption .links a:hover{
     color: #222;
 }
 
+
+#description {
+    background: #FBFAF8;
+}
 
 /*single portfolio
 ------------------*/
