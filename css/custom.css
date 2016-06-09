@@ -2649,13 +2649,15 @@ iframe{
     background: #ef6c00;
     right: 10px;
     top: -10px;
+}.mobilefix2{
+    display: none;
 }
 @media (max-width: 900px) {
   .scroll {
     display: none;
   }
   .mobilefix {
-    
+    display: none;
   }
   .hero-section {
     height: 100%;
@@ -2665,5 +2667,8 @@ iframe{
     .hero-section .container 
     {
     height: 100%;
+    }
+    .mobilfix2{
+        display: block;
     }
 }
