@@ -1,0 +1,36 @@
+.map 
+{
+	position : absolute;
+	border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  border: 8px solid #444;
+  margin: 0px;
+  z-index: -1;
+}
+.timemap 
+{
+  position : absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  height: 98%;
+  width: 99%;
+  border: 8px solid #444;
+  margin: 0px;
+}
+.ol-control {
+  position: absolute;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.ol-control:hover {
+  background-color: rgba(255,255,255,0.6);
+  padding: 0px;
+  margin: 0px;
+}
+.top-buffer { 
+  margin-top: 30px;
+}
